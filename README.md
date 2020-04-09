@@ -29,8 +29,8 @@ This is a script that backs up a Windows user profile folders and the currently 
    * **Line 112** - destination folder in the backup drive for Laptop backups. Default: H:\\**_LaptopBackup**
    * **Line 199** - list of folders in the source directory that will be included in the backup
    * **Line 200** - backup drive letter
-   * **Line 225** - (*Optional:*) source directory structure. Default: **_$env:USERPROFILE_**\\dir
-   * **Line 226** - (*Optional:*) destination directory structure. Default: $backupDrive\\$($syncHash.destDir)\\**_$env:USERNAME_**\\$dir
+   * **Line 225** - source directory structure. Default: **_$env:USERPROFILE_**\\dir
+   * **Line 226** - destination directory structure. Default: $backupDrive\\$($syncHash.destDir)\\**_$env:USERNAME_**\\$dir
    * **Line 243** - this corresponds to the parent folder in Line 226. Default: backupDrive\\$($syncHash.destDir)\\**_$env:USERNAME_**
 1. Change the following variables in the restore runspace depending on your setup:
    * **Line 259** - this is the same as the folder in Line 110
