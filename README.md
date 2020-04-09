@@ -39,10 +39,13 @@ This is a script that backs up a Windows user profile folders and the currently 
    * **Line 355** - this is the same as the drive letter in Line 200
    * **Line 363** - this is the destination for the restore operation. Default: **_$env:USERPROFILE_**\\$dir
    * **Line 364** - this is the backup source where the backed up files are. Default: $backupDrive\\$($syncHash.srcDir)\\**_$env:USERNAME_**\\$dir
-1. Run the script using PowerShell ISE or Visual Code or whatever you use.
+1. Run the script using PowerShell (right click > run with PowerShell) or open with Powrshell ISE then run from there. **Note:** This is intended to be used by your users, you can store this somewhere in your file shares and teach them how to use it.
 1. *Optional:* If you want to exclude the printers for the backup and restore operations, comment out the following lines:
    * **Restore** - Lines 376-385
    * **Backup** - Lines 207-221
    
 ## Troubleshooting
 1. If you want to see the existing values in the synced hashtable, comment out lines 426-431
+
+## Want to use this in your organization?
+I can convert this script to an EXE file. Drop me an email here: peterjoseph.rivera@gmail.com
