@@ -18,7 +18,7 @@ This is a script that backs up a Windows user profile folders and the currently 
 * Script cancellation with process handling
 * Exit script confirmation
 
-## Prerequisites
+## Requirements
 * Windows 7 or higher
 * PowerShell v4 or higher
 * .Net Framework 4.5 or higher
