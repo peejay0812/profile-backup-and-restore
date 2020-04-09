@@ -3,7 +3,7 @@ This is a script that backs up a Windows user profile folders and the currently 
 
 ![](images/profile-backup-and-restore.PNG)
 
-**Disclaimer:** *The author of this script will not be liable of any damage or data loss during the execution of this script. Please test and study the script first before using it in a production environment.*
+**Disclaimer:** *The author of this script will not be liable of any damage or data loss when using this script. Please test and study the script first before using it in a production environment.*
 
 ## Features
 * Backs up folders from the current user profile
